@@ -288,6 +288,28 @@ a:hover { color: var(--teal-light); }
   background: rgba(255,255,255,.04);
 }
 
+.hero-platforms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: .8rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+}
+
+.hero-platforms span {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+}
+
+.hero-platforms span i {
+  font-size: .85rem;
+  opacity: .7;
+}
+
 .hero-preview {
   position: relative;
   border-radius: var(--radius);
