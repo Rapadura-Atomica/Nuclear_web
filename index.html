@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuclear® — Software de Animação 2D</title>
+  <meta name="description" content="Nuclear é um software de animação 2D open source feito por artistas para artistas. Gratuito, sob licença GPL." />
+  <link rel="shortcut icon" href="images/nuclear.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/nuclear.css" />
+</head>
+<body>
+
+  <!-- Bandeirinhas de São João (decoração junina) -->
+  <div class="bandeirinhas" aria-hidden="true"></div>
+
+  <!-- ── Nav ── -->
+  <nav id="nav" role="navigation" aria-label="Navegação principal">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Nuclear — página inicial">
+        <img src="images/nuclear.svg" alt="Ícone Nuclear" />
+        <img src="images/logo_banner_nuclear.svg" alt="Nuclear" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Funcionalidades</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#beta" class="nav-cta">Beta gratuito</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section id="hero" aria-label="Apresentação">
+    <div class="hero-inner">
+
+      <div class="hero-logo fade-up">
+        <img src="images/nuclear.svg" alt="Nuclear ícone" class="hero-icon" />
+        <img src="images/logo_banner_nuclear.svg" alt="Nuclear" class="hero-wordmark" />
+      </div>
+
+      <h1 class="hero-tagline fade-up fade-up-delay-1">
+        Animação 2D livre.<br />
+        <span>Feito por artistas.</span>
+      </h1>
+
+      <p class="hero-sub fade-up fade-up-delay-2">
+        Software de animação 2D derivado do Blender, com Grease Pencil, rigging avançado
+        e inteligência artística. Gratuito, para sempre, sob licença GPL.
+      </p>
+
+      <div class="hero-badges fade-up fade-up-delay-2">
+        <span class="badge badge-gpl">
+          <i class="fas fa-check-circle" aria-hidden="true"></i> GPL — 100% Gratuito
+        </span>
+        <span class="badge badge-blender">
+          <i class="fab fa-blender" aria-hidden="true"></i> Derivado do Blender
+        </span>
+      </div>
+
+      <div class="hero-actions fade-up fade-up-delay-3">
+        <a href="#beta" class="btn btn-primary">
+          <i class="fas fa-rocket" aria-hidden="true"></i>
+          Quero ser beta tester
+        </a>
+        <a href="#features" class="btn btn-ghost">
+          Saiba mais
+          <i class="fas fa-arrow-down" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="hero-preview fade-up fade-up-delay-4">
+        <img src="gifs/gifAnimacao.gif" alt="Nuclear em ação — animação 2D" loading="lazy" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Features ── -->
+  <section id="features" aria-labelledby="features-title">
+    <div class="section-inner">
+      <header class="features-header">
+        <p class="section-label">Funcionalidades</p>
+        <h2 class="section-title" id="features-title">Tudo que você precisa para animar</h2>
+        <p class="section-desc">Do rascunho ao render final, cada etapa pensada para artistas.</p>
+      </header>
+
+      <div class="bento-grid">
+
+        <article class="feature-card">
+          <div class="feature-card-media">
+            <img src="gifs/gifStoryboard.gif" alt="Storyboard e Animatic no Nuclear" loading="lazy" />
+          </div>
+          <div class="feature-card-body">
+            <p class="feature-card-tag">Pré-produção</p>
+            <h3 class="feature-card-title">Storyboard &amp; Animatic</h3>
+            <p class="feature-card-text">
+              Reaproveitamento inteligente de desenhos, fluxos simplificados e total liberdade
+              artística para compor narrativas e testar ritmos visuais.
+            </p>
+            <a href="boardAnimatic.html" class="feature-card-link">
+              Saiba mais <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-media">
+            <img src="images/AnimationV2.png" alt="Animação tradicional e cut-out" loading="lazy" />
+          </div>
+          <div class="feature-card-body">
+            <p class="feature-card-tag">Animação</p>
+            <h3 class="feature-card-title">Tradicional &amp; Cut-out</h3>
+            <p class="feature-card-text">
+              Timelines independentes por objeto, onion skin preciso, clean up automatizado
+              e balde de tintas inteligente. Mais tempo para animar, menos tempo para sofrer.
+            </p>
+            <a href="animation.html" class="feature-card-link">
+              Saiba mais <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-media">
+            <img src="images/Rig_Peg.png" alt="Sistema de rigging do Nuclear" loading="lazy" />
+          </div>
+          <div class="feature-card-body">
+            <p class="feature-card-tag">Rigging</p>
+            <h3 class="feature-card-title">Rigs &amp; Bibliotecas</h3>
+            <p class="feature-card-text">
+              Crie rigs personalizados, gerencie bibliotecas de actions, poses e contexto.
+              Rigs pré-desenvolvidos prontos para usar desde o primeiro dia.
+            </p>
+            <a href="rigging.html" class="feature-card-link">
+              Saiba mais <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-media">
+            <img src="images/FrameSoftware.png" alt="Inteligência Artística do Nuclear" loading="lazy" />
+          </div>
+          <div class="feature-card-body">
+            <p class="feature-card-tag">Inteligência Artística</p>
+            <h3 class="feature-card-title">Agentes a seu serviço</h3>
+            <p class="feature-card-text">
+              Artista faz arte. Delegue tarefas repetitivas para os Agentes do Nuclear e
+              dedique seu tempo ao que realmente importa: criar.
+            </p>
+            <a href="artisticInteligence.html" class="feature-card-link">
+              Saiba mais <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Services ── -->
+  <section id="services" aria-labelledby="services-title">
+    <div class="section-inner">
+      <header>
+        <p class="section-label">Serviços</p>
+        <h2 class="section-title" id="services-title">O que vem junto</h2>
+        <p class="section-desc">
+          Não precisa ser pirata quando tudo é legal. Para manter o Nuclear vivo e crescendo,
+          mantemos um time que melhora e refina o software todos os dias.
+        </p>
+      </header>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+          <h3 class="service-title">Funcionalidades extras</h3>
+          <p class="service-text">Desenvolvemos novas funcionalidades sob demanda e necessidade do estúdio.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+          <h3 class="service-title">Código aberto</h3>
+          <p class="service-text">O código do Nuclear está no GitHub. A comunidade contribui diariamente para segurança e estabilidade.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-sliders-h" aria-hidden="true"></i></div>
+          <h3 class="service-title">Customização total</h3>
+          <p class="service-text">Interface mutável. Cada artista define seu processo de trabalho do jeito que funciona melhor.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-headset" aria-hidden="true"></i></div>
+          <h3 class="service-title">Suporte especializado</h3>
+          <p class="service-text">Suporte técnico com SLA mínimo garantido para estúdios com compromissos de produção.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+          <h3 class="service-title">Força da comunidade</h3>
+          <p class="service-text">Derivado do Blender, possui uma comunidade ativa, colaborativa e sempre pronta para ajudar.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-gem" aria-hidden="true"></i></div>
+          <h3 class="service-title">Biblioteca de assets</h3>
+          <p class="service-text">Rigs prontos para diversos estilos de produção. Na mão, pronto para usar, livre para customizar.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Beta / Download ── -->
+  <section id="beta" aria-labelledby="beta-title">
+    <div class="section-inner">
+      <div class="beta-inner">
+        <header>
+          <p class="section-label">Beta gratuito</p>
+          <h2 class="section-title" id="beta-title">Baixe agora</h2>
+          <p class="section-desc">
+            Inscreva-se para ser beta tester antes do lançamento oficial e ajude a moldar o Nuclear.
+          </p>
+        </header>
+
+        <form method="POST" action="https://formsubmit.co/info@rapaduraatomica.com.br" novalidate>
+          <!-- FormSubmit config -->
+          <input type="hidden" name="_subject" value="Novo cadastro beta tester - Nuclear" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_autoresponse" value="Recebemos seu cadastro para o beta do Nuclear. Em breve entraremos em contato. Obrigado!" />
+          <!-- Anti-spam honeypot -->
+          <input type="text" name="_honey" style="display:none" aria-hidden="true" />
+
+          <div class="beta-form-grid">
+            <div>
+              <label class="form-label" for="name">Nome</label>
+              <input class="form-input" type="text" name="Nome" id="name" required autocomplete="name" />
+            </div>
+            <div>
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" type="email" name="Email" id="email" required autocomplete="email" />
+            </div>
+            <div>
+              <label class="form-label" for="fone">Telefone</label>
+              <input class="form-input" type="tel" name="Telefone" id="fone" autocomplete="tel" />
+            </div>
+            <div>
+              <label class="form-label" for="projeto">Projeto</label>
+              <input class="form-input" type="text" name="Projeto" id="projeto" />
+            </div>
+            <div class="field-full">
+              <label class="form-label" for="sinopse">Sinopse do projeto</label>
+              <textarea class="form-textarea" name="Sinopse do projeto" id="sinopse" rows="4"></textarea>
+            </div>
+            <div class="form-submit-row">
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                Enviar inscrição
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div class="beta-contact">
+          <div>
+            <p class="contact-block-label">Endereço</p>
+            <p class="contact-block-value">
+              Chanceler Edson Queiroz 3406 Altos<br />
+              Cascavel, CE 62850-000 — Brasil
+            </p>
+          </div>
+          <div>
+            <p class="contact-block-label">Email</p>
+            <p class="contact-block-value">
+              <a href="mailto:info@rapaduraatomica.com.br">info@rapaduraatomica.com.br</a>
+            </p>
+          </div>
+          <div>
+            <p class="contact-block-label">Redes sociais</p>
+            <div class="social-links">
+              <a href="https://instagram.com/rapaduraatomica" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/rapaduraatomica/" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter / X">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/rapadura_icon.png" alt="Rapadura Atômica" />
+        <p class="footer-copy">
+          Nuclear® &copy; 2025 — <a href="http://rapaduraatomica.com.br">Rapadura Atômica</a><br />
+          Licença <a href="https://pt.wikipedia.org/wiki/GNU_General_Public_License" target="_blank" rel="noopener">GPL</a> — livre para usar, estudar e distribuir.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

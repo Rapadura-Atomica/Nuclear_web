@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="475.68552"
+   height="448.80731"
+   viewBox="0 0 475.68552 448.80731"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       xlink:href="#linearGradient4035"
+       id="linearGradient4036"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-179.52871,465.59025,349.24394)"
+       x1="301.27988"
+       y1="361.86285"
+       x2="484.06339"
+       y2="361.86285" />
+    <linearGradient
+       id="linearGradient4035">
+      <stop
+         style="stop-color:#01adb0;stop-opacity:1;"
+         offset="0"
+         id="stop4034" />
+      <stop
+         style="stop-color:#3f1986;stop-opacity:1;"
+         offset="1"
+         id="stop4035" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient4037"
+       id="linearGradient4023-9-1-6"
+       x1="301.27988"
+       y1="361.86285"
+       x2="484.06339"
+       y2="361.86285"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4037">
+      <stop
+         style="stop-color:#05a3ae;stop-opacity:1;"
+         offset="0"
+         id="stop4036" />
+      <stop
+         style="stop-color:#a408ae;stop-opacity:1;"
+         offset="1"
+         id="stop4037" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-18.347471,-37.522533)">
+    <g
+       id="g4035-7"
+       style="display:inline"
+       transform="matrix(1.4430062,0,0,1.4430062,-416.40127,-242.99499)">
+      <path
+         style="display:inline;fill:url(#linearGradient4036);stroke-width:5.108;stroke-linecap:round;stroke-linejoin:round"
+         d="m 446.63425,298.95395 c 0,0 43.86008,170.27373 95.46039,181.51761 54.25113,11.82151 105.19831,-261.47386 83.86135,-284.32319 -21.70684,-23.24544 -114.983,194.33676 -179.32174,102.80558 z"
+         id="path4022-1-8-6-4" />
+      <path
+         style="display:inline;opacity:1;fill:url(#linearGradient4023-9-1-6);stroke-width:5.108;stroke-linecap:round;stroke-linejoin:round"
+         d="m 484.06338,405.70325 c 0,0 -44.3633,-176.23415 -96.05435,-187.05321 -54.34654,-11.37486 -103.04399,262.33033 -81.51981,285.00338 21.89731,23.0661 112.4847,-188.94903 177.57416,-97.95017 z"
+         id="path4022-4-1-5" />
+    </g>
+  </g>
+</svg>
